@@ -1,0 +1,13 @@
+[{
+  "name": "Admin",
+  "email": "admin@myvendors.com"
+}, {
+  "name": "Dev Admin",
+  "email": "devAdmin@myvendors.com"
+},{
+  "name": "Test Admin",
+  "email": "testAdmin@myvendors.com"
+},{
+  "name": "Client Admin",
+  "email": "clientAdmin@myvendors.com"
+}]

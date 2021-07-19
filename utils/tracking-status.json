@@ -1,0 +1,627 @@
+[
+  {
+    "EventCode": "1",
+    "EventName": "Delivered",
+    "internalStatus": "DELIVERED"
+  },
+  {
+    "EventCode": "2",
+    "EventName": "Collection",
+    "internalStatus": "DISPATCHED"
+  },
+  {
+    "EventCode": "3",
+    "EventName": "In Transit to Destination",
+    "internalStatus": "IN_TRANSIT"
+  },
+  {
+    "EventCode": "4",
+    "EventName": "Arrived Hub",
+    "internalStatus": "IN_TRANSIT"
+  },
+  {
+    "EventCode": "8",
+    "EventName": "On Hold - Customs Processing - Missing Paperwork",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "9",
+    "EventName": "On Hold - Customs - Inaccurate Paperwork",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "10",
+    "EventName": "On Hold - Customs - Awaiting Customs Clearance",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "11",
+    "EventName": "On Hold - Damaged",
+    "internalStatus": "ON_HOLD_DAMAGED"
+  },
+  {
+    "EventCode": "14",
+    "EventName": "Delayed Linehaul Departure",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "15",
+    "EventName": "Out for Delivery",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "16",
+    "EventName": "Attempted Delivery - Inaccurate / Incomplete Address",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "17",
+    "EventName": "Not Delivered - Bad Weather Conditions",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "18",
+    "EventName": "Attempted Delivery - No One Available/Home",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "19",
+    "EventName": "On Hold - In Branch",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "20",
+    "EventName": "On Hold - Consignee to Pay Charges",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "22",
+    "EventName": "Customer Contacted",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "23",
+    "EventName": "Sorted to Destination",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "24",
+    "EventName": "Shortlanded",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "37",
+    "EventName": "Released from Customs",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "38",
+    "EventName": "Due to Unforeseen Circumstances Delivery is Rescheduled for Next Working Day",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "39",
+    "EventName": "Attempted Delivery - Customer Refused Shipment",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "43",
+    "EventName": "Attempted Delivery - Unable to Locate Consignee",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "44",
+    "EventName": "Attempted Delivery - Consignee Moved",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "45",
+    "EventName": "Shipment Returned to Sending Station",
+    "internalStatus": "SHIPMENT_RETURNED"
+  },
+  {
+    "EventCode": "46",
+    "EventName": "Shipment Destroyed",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "48",
+    "EventName": "In Transit to Destination",
+    "internalStatus": "IN_TRANSIT"
+  },
+  {
+    "EventCode": "50",
+    "EventName": "On Hold - Awaiting Pickup by Consignee",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "51",
+    "EventName": "Delivery Delays - Please Contact Customer Services",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "52",
+    "EventName": "On Hold - Pending Customs Inspection",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "53",
+    "EventName": "Attempted Delivery - Unable to Deliver - Please Contact Customer Services",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "54",
+    "EventName": "On Hold from Export - Pending Customs Procedures",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "55",
+    "EventName": "On Hold - Customs - Awaiting Customs Clearance",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "56",
+    "EventName": "Shipment Returned to Sender",
+    "internalStatus": "SHIPMENT_RETURNED"
+  },
+  {
+    "EventCode": "60",
+    "EventName": "Not Delivered - Consignee Scheduled Delivery",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "62",
+    "EventName": "On Hold - Requires Commercial Invoice",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "63",
+    "EventName": "On Hold - Required Consignee ID/Tax Number",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "64",
+    "EventName": "On Hold - Prohibited/Restricted Goods",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "65",
+    "EventName": "On Hold - InComplete Multi Piece Consignment",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "66",
+    "EventName": "Shipment Details Created",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "74",
+    "EventName": "Attempt to Contact Consignee Failed",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "80",
+    "EventName": "On Hold - Unsuccessful Delivery After Allotted Attempts",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "81",
+    "EventName": "On Hold - Consignee Has Not Collected The Shipment - Awaiting Instructions",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "82",
+    "EventName": "Attempted Delivery - Unable to Access Permisses",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "83",
+    "EventName": "On Hold - Requires Correct Telephone Number",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "84",
+    "EventName": "In Transit To Destination",
+    "internalStatus": "IN_TRANSIT"
+  },
+  {
+    "EventCode": "85",
+    "EventName": "On Hold - Delivery Needs To Be (Re)Scheduled For/With Consignee",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "87",
+    "EventName": "Return In Progress",
+    "internalStatus": "SHIPMENT_RETURN_IN_PROGRESS"
+  },
+  {
+    "EventCode": "90",
+    "EventName": "Documentation Prepared",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "91",
+    "EventName": "Shipment Finalised",
+    "internalStatus": "IN_TRANSIT"
+  },
+  {
+    "EventCode": "92",
+    "EventName": "In Transit - Delayed Linehaul",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "93",
+    "EventName": "On Hold - In Hub - Misdeclared",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "94",
+    "EventName": "On Hold - Customs - Misdeclared",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "97",
+    "EventName": "Attempted Delivery - Business Closed",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "98",
+    "EventName": "Attempted Delivery - No One Available/Home",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "100",
+    "EventName": "Not Delivered - Traffic Accident",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "101",
+    "EventName": "Arrived Hub",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "102",
+    "EventName": "Incorrect Driver Assignment",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "106",
+    "EventName": "Not Delivered - Rescheduled by Customer",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "107",
+    "EventName": "Not Delivered - Rescheduled Delivery",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "111",
+    "EventName": "Unable to Locate - Please Contact Customer Services",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "112",
+    "EventName": "Unable to Locate - Please Contact Customer Services",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "113",
+    "EventName": "Unable to Locate - Please Contact Customer Services",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "114",
+    "EventName": "Unable to Locate - Please Contact Customer Services",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "115",
+    "EventName": "Unable to Locate - Please Contact Customer Services",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "116",
+    "EventName": "Unable to Locate - Please Contact Customer Services",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "117",
+    "EventName": "Unable to Locate - Please Contact Customer Services",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "118",
+    "EventName": "Unable to Locate - Please Contact Customer Services",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "119",
+    "EventName": "Unable to Locate - Please Contact Customer Services",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "120",
+    "EventName": "On Hold - Consignment requires repackaging",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "124",
+    "EventName": "On Hold - In Branch",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "125",
+    "EventName": "On Hold - Customs - Pending Quarantine Inspection",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "126",
+    "EventName": "On Hold - Customs - Pending FDA",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "127",
+    "EventName": "On Hold - Customs - Awaiting Customs Clearance",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "129",
+    "EventName": "Delivery Delays - Please Contact Customer Services",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "130",
+    "EventName": "Delivery Delays - Please Contact Customer Services",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "131",
+    "EventName": "Delivery Delays - Please Contact Customer Services",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "132",
+    "EventName": "Delivery Delays - Please Contact Customer Services",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "133",
+    "EventName": "Delivery Delays - Please Contact Customer Services",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "134",
+    "EventName": "Delivery Delays - Please Contact Customer Services",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "136",
+    "EventName": "On Hold - Customs - Pending Duty & Tax Payment",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "142",
+    "EventName": "On Hold - Damaged",
+    "internalStatus": "ON_HOLD_DAMAGED"
+  },
+  {
+    "EventCode": "143",
+    "EventName": "On Hold - Damaged",
+    "internalStatus": "ON_HOLD_DAMAGED"
+  },
+  {
+    "EventCode": "144",
+    "EventName": "On Hold - Damaged",
+    "internalStatus": "ON_HOLD_DAMAGED"
+  },
+  {
+    "EventCode": "145",
+    "EventName": "On Hold - Damaged",
+    "internalStatus": "ON_HOLD_DAMAGED"
+  },
+  {
+    "EventCode": "146",
+    "EventName": "Shipper/Receiver Initiated Shipment Detail Change",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "148",
+    "EventName": "Info Message Sent to Recipient",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "149",
+    "EventName": "Message Sent to Recipient",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "151",
+    "EventName": "Message Response Received from Recipient",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "152",
+    "EventName": "Reschedule Response Message Received from Recipient",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "159",
+    "EventName": "SMS sent to receiver with delivery advice",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "161",
+    "EventName": "Not Delivered - Partial Delivery",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "162",
+    "EventName": "In Transit To Destination",
+    "internalStatus": "IN_TRANSIT"
+  },
+  {
+    "EventCode": "163",
+    "EventName": "Delayed Airline Departure due to Bad Weather",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "164",
+    "EventName": "Delayed Linehaul Departure",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "165",
+    "EventName": "Delayed Linehaul Departure - Traffic Accident",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "166",
+    "EventName": "Delayed Linehaul Departure - Bad Weather",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "168",
+    "EventName": "Delayed Linehaul Departure",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "169",
+    "EventName": "On Hold - Customs - Quarantined ",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "170",
+    "EventName": "On Hold - Customs - Awaiting Customs Clearance",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "171",
+    "EventName": "On Hold - PO Box Address",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "246",
+    "EventName": "Unable to Locate – Search in Progress",
+    "internalStatus": "UNABLE_TO_LOCATE"
+  },
+  {
+    "EventCode": "247",
+    "EventName": "On Hold - Inaccurate / Incomplete Address",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "254",
+    "EventName": "In Transit Delays – Technical Aircraft Failure",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "255",
+    "EventName": "Attempted Delivery - No Safe Place to Leave",
+    "internalStatus": "ATTEMPTED_DELIVERY"
+  },
+  {
+    "EventCode": "259",
+    "EventName": "Arrived Hub - Alternate Delivery Point",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "260",
+    "EventName": "For Collection at Alternate Delivery Point",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "261",
+    "EventName": "Retrieved from Alternate Delivery Point",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "262",
+    "EventName": "Scheduled for Delivery",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "287",
+    "EventName": "CS - Address Query",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "296",
+    "EventName": "CS - Unable to access premises",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "298",
+    "EventName": "CS - Awaiting collection by consignee",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "306",
+    "EventName": "Not Delivered - Held Awaiting Instructions",
+    "internalStatus": "ON_HOLD"
+  },
+  {
+    "EventCode": "339",
+    "EventName": "In Transit - Remote Location",
+    "internalStatus": "IN_TRANSIT"
+  },
+  {
+    "EventCode": "350",
+    "EventName": "Delivered - Alternate Delivery Point",
+    "internalStatus": "DELIVERED"
+  },
+  {
+    "EventCode": "371",
+    "EventName": "Held in Depot - Oversize",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "407",
+    "EventName": "KYC Information Updated",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "411",
+    "EventName": "Pickup Arranged",
+    "internalStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "EventCode": "420",
+    "EventName": "User Modified Pickup Request",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "433",
+    "EventName": "KYC info validated",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "434",
+    "EventName": "KYC Information validation failed",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "438",
+    "EventName": "Awaiting KYC Validation",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "439",
+    "EventName": "On Hold for KYC softcopies",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "440",
+    "EventName": "KYC Alert – No KYC Data",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "444",
+    "EventName": "Delayed Airline Departure due to Pandemic Restrictions",
+    "internalStatus": ""
+  },
+  {
+    "EventCode": "478",
+    "EventName": "Self-Collection Arranged",
+    "internalStatus": ""
+  }
+]
