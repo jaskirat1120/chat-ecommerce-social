@@ -2787,52 +2787,7 @@ const addMoneyToWallet = async (payload, userData) => {
             'cms_with_version': 'Nodejs Lib v1',        //Feel free to change this
         };
 
-        let tokenizationData = {
-            'currency': "AED",      //change this to the required currency
-            'amount': payload.amount,      //change this to the required amount
-            'site_url': process.env.site_url,       //change this to reflect your site
-            'title': `Adding Money to wallet`,        //Change this to reflect your order title
-            'quantity': 1,      //Quantity of the product
-            'unit_price': payload.amount,       //Quantity * price must be equal to amount
-            'products_per_title': `Adding Money to wallet`,      //Change this to your products
-            'return_url': process.env.return_url_wallet,       //This should be your callback url
-            'cc_first_name': userData.firstName?userData.firstName:"NA",        //Customer First Name
-            'cc_last_name': userData.lastName?userData.lastName:"NA",      //Customer Last Name
-            'cc_phone_number': userData.phoneNumber.countryCode,        //Country code
-            'phone_number': userData.phoneNumber.phoneNo,      //Customer Phone
-            'billing_address': "NA",        //Billing Address
-            'city': "NA",          //Billing City
-            'state': "NA",        //Billing State
-            'postal_code': "NA",     //Postal Code
-            'country': iso3 ? iso3 : "IND",        //Iso 3 country code
-            'email': userData.email,        //Customer Email
-            'ip_customer': 'NA',        //Pass customer IP here
-            'ip_merchant': 'NA',        //Change this to your server IP
-            'address_shipping': "NA",      //Shipping Address
-            'city_shipping': "NA",        //Shipping City
-            'state_shipping': "NA",      //Shipping State
-            'postal_code_shipping': "NA",
-            'country_shipping': iso3 ? iso3 : "IND",
-            'other_charges': 0,        //Other chargs can be here
-            'reference_no': +new Date(),      //Pass the order id on your system for your reference
-            'msg_lang': 'en',       //The language for the response
-            'cms_with_version': 'Nodejs Lib v1',        //Feel free to change this
-            'is_tokenization': "TRUE",
-            'is_existing_customer': "FALSE",
-            order_id: +new Date(),
-            product_name: "NA",
-            customer_email: userData.email,
-            address_billing: "NA",
-            state_billing: "NA",
-            city_billing: "NA",
-            postal_code_billing: "NA",
-            country_billing: iso3 ? iso3 : "IND",
-            pt_token: 'DiQzJAHX1FKLJEZEX8YBVKCwHwFlvAz8',
-            pt_customer_email: 'jaskirat@yopmail.com',
-            pt_customer_password: 'L1AXU9EYUd',
-            billing_shipping_details: "NA",
-        };
-        // let paymentResult = await PayTabManager.tokenizedPayment(tokenizationData);
+       
         let paymentResult = await PayTabManager.createPage(data);
         let paymentUrl, pId, paymentStatus;
         if (paymentResult) {

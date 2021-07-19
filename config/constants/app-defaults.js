@@ -476,9 +476,9 @@ module.exports = {
         SELECTIVE: "SELECTIVE",
     },
     JWT_SECRET: {
-        USER: process.env.JWT_SECRET_USER,
-        VENDOR: process.env.JWT_SECRET_VENDOR,
-        ADMIN: process.env.JWT_SECRET_ADMIN
+        USER: process.env.JWT_USER,
+        VENDOR: process.env.JWT_VENDOR,
+        ADMIN: process.env.JWT_ADMIN
     },
     BUCKET: {
         FOLDER: {
